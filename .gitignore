@@ -1,6 +1,9 @@
 
 # Created by https://www.gitignore.io/api/git,redis,macos,linux,python,django,pycharm
 
+### Custom ###
+.idea/
+
 ### Django ###
 *.log
 *.pot
