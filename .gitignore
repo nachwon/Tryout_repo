@@ -3,6 +3,7 @@
 
 ### Custom ###
 .idea/
+.config_secrets/
 
 ### Django ###
 *.log
