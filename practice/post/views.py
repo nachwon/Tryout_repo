@@ -10,4 +10,7 @@ class PostListView(ListView):
 
     def get(self, request, *args, **kwargs):
         posts = Post.objects.all().values('id', 'title', 'content')
-        return JsonResponse(list(posts), safe=False)
+        context = {}
+        for i in posts:
+            context[f'post_{i["id"]}'] = i
+        return JsonResponse(context)
