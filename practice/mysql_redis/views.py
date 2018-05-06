@@ -3,7 +3,7 @@ from django.http import JsonResponse
 from django.shortcuts import render
 from django.views.generic import ListView
 
-from post.models import Post
+from mysql_redis.models import Post
 
 
 class PostListView(ListView):

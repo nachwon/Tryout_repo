@@ -39,7 +39,7 @@ INSTALLED_APPS = [
 
     'django_extensions',
 
-    'post',
+    'mysql_redis',
 ]
 
 MIDDLEWARE = [

@@ -1,6 +1,6 @@
 from django.core.management import BaseCommand
 
-from post.models import Post
+from mysql_redis.models import Post
 
 
 class Command(BaseCommand):
