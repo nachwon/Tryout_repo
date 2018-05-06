@@ -2,9 +2,9 @@
 
 this repository contains a simple django application for practicing some techs with django.
 
-python version: 3.6.4
-django version: 2.0.4
-database: MyQSL 5.7.22
+python version: 3.6.4  
+django version: 2.0.4  
+database: MySQL 5.7.22  
 
 - - -
 
