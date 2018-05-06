@@ -15,11 +15,12 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
 
 from mysql_redis.views import PostListView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     path('posts/', PostListView.as_view()),
+    url(r'drf-router/', include('drf_router.urls'), name='drf_router')
 ]
